@@ -1,0 +1,10 @@
+[
+  {
+    "id": "rag-5b6bbb",
+    "user_id": "usr-37c4b3f8",
+    "query": "first line treatment for Type 2 diabetes",
+    "result": "Type 2 Diabetes Mellitus (T2DM): First-line treatment is lifestyle intervention (diet, exercise, weight management) + Metformin. ADA 2024 targets HbA1c < 7% for most adults. Add GLP-1 RA or SGLT-2 inh",
+    "confidence": "High",
+    "timestamp": "2026-02-21T00:28:57.717809"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mh-001",
+    "user_id": null,
+    "user": "User #001",
+    "topic": "Anxiety & work stress",
+    "duration_min": 8,
+    "timestamp": "2025-06-01T09:00:00",
+    "outcome": "CBT coping techniques provided"
+  },
+  {
+    "id": "mh-002",
+    "user_id": null,
+    "user": "User #002",
+    "topic": "Sleep difficulties",
+    "duration_min": 12,
+    "timestamp": "2025-06-02T20:30:00",
+    "outcome": "Sleep hygiene guidance given"
+  },
+  {
+    "id": "mh-02b98c65",
+    "user_id": "usr-37c4b3f8",
+    "message_preview": "hey im feeling bit creepy today",
+    "topic": "Wellness Chat",
+    "timestamp": "2026-02-20T21:11:39.408469"
+  },
+  {
+    "id": "mh-0378d5a1",
+    "user_id": "usr-37c4b3f8",
+    "message_preview": "give me some strategies to cope with work stress",
+    "topic": "Wellness Chat",
+    "timestamp": "2026-02-20T21:12:34.990274"
+  },
+  {
+    "id": "mh-8bd48c03",
+    "user_id": "usr-37c4b3f8",
+    "message_preview": "lets try some mindfulness exercise",
+    "topic": "Wellness Chat",
+    "timestamp": "2026-02-20T21:12:53.664023"
+  },
+  {
+    "id": "mh-f58990ef",
+    "user_id": "usr-37c4b3f8",
+    "message_preview": "I feel anxious and overwhelmed",
+    "topic": "Wellness Chat",
+    "timestamp": "2026-02-20T21:13:09.372419"
+  },
+  {
+    "id": "mh-1b01b447",
+    "user_id": "usr-37c4b3f8",
+    "message_preview": "yaaa feeling stress on work bias is really tough",
+    "topic": "Wellness Chat",
+    "timestamp": "2026-02-20T21:13:30.417425"
+  },
+  {
+    "id": "mh-d1d78dd9",
+    "user_id": "usr-37c4b3f8",
+    "message_preview": "i was having a hard time today it was bad my mom scolded me ",
+    "topic": "Wellness Chat",
+    "timestamp": "2026-02-20T21:15:57.859796"
+  }
+]

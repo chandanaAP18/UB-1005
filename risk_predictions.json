@@ -1,0 +1,76 @@
+[
+  {
+    "id": "risk-4550da63",
+    "user_id": "usr-37c4b3f8",
+    "input": {
+      "age": 54,
+      "bp": 120,
+      "dbp": 80,
+      "sugar": 134,
+      "bmi": 29.0,
+      "cholesterol": 211,
+      "smoking": "Non-Smoker",
+      "gender": "Female",
+      "heart_rate": 75,
+      "family_history_cvd": "no",
+      "symptoms": "",
+      "medications": ""
+    },
+    "result": {
+      "score": 41,
+      "risk_level": "Medium",
+      "urgency": "MODERATE",
+      "key_factors": [
+        "Age 45\u201364",
+        "Elevated Blood Pressure",
+        "Borderline High Cholesterol",
+        "Diabetic Range (\u2265126)"
+      ],
+      "explanations": [],
+      "recommendations": [
+        "Seek medical advice for accurate diagnosis",
+        "Monitor vital signs regularly",
+        "Maintain a balanced diet and regular exercise"
+      ],
+      "is_ai_enhanced": false
+    },
+    "timestamp": "2026-02-20T21:04:13.656938"
+  },
+  {
+    "id": "risk-56436b51",
+    "user_id": "usr-37c4b3f8",
+    "input": {
+      "age": 50,
+      "bp": 130,
+      "dbp": 70,
+      "sugar": 140,
+      "bmi": 29.0,
+      "cholesterol": 220,
+      "smoking": "Non-Smoker",
+      "gender": "Other",
+      "heart_rate": 75,
+      "family_history_cvd": "no",
+      "symptoms": "",
+      "medications": ""
+    },
+    "result": {
+      "score": 41,
+      "risk_level": "Medium",
+      "urgency": "MODERATE",
+      "key_factors": [
+        "Age 45\u201364",
+        "Elevated Blood Pressure",
+        "Borderline High Cholesterol",
+        "Diabetic Range (\u2265126)"
+      ],
+      "explanations": [],
+      "recommendations": [
+        "Seek medical advice for accurate diagnosis",
+        "Monitor vital signs regularly",
+        "Maintain a balanced diet and regular exercise"
+      ],
+      "is_ai_enhanced": false
+    },
+    "timestamp": "2026-02-21T00:31:52.135885"
+  }
+]

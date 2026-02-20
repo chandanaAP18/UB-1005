@@ -1,0 +1,410 @@
+[
+  {
+    "id": "rx-001",
+    "patient": "John Doe",
+    "physician": "Dr. A. Sharma",
+    "timestamp": "2025-06-01T10:30:00",
+    "user_id": null,
+    "filename": "diabetes_prescription.pdf",
+    "file_size": 156240,
+    "notes": "Patient compliant with medication. Monitor blood sugar levels weekly.",
+    "fhir": {
+      "resourceType": "MedicationRequest",
+      "id": "rx-001",
+      "status": "active",
+      "intent": "order",
+      "subject": {
+        "display": "John Doe"
+      },
+      "medicationCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "860975",
+            "display": "Metformin 500 MG"
+          }
+        ]
+      },
+      "dosageInstruction": [
+        {
+          "text": "500mg twice daily with meals"
+        }
+      ],
+      "prescriber": {
+        "display": "Dr. A. Sharma"
+      }
+    }
+  },
+  {
+    "id": "rx-002",
+    "patient": "Priya Patel",
+    "physician": "Dr. R. Mehta",
+    "timestamp": "2025-06-02T14:15:00",
+    "user_id": null,
+    "filename": "hypertension_rx.png",
+    "file_size": 512340,
+    "notes": "BP control adequate. Continue medication. Follow-up appointment in 3 months.",
+    "fhir": {
+      "resourceType": "MedicationRequest",
+      "id": "rx-002",
+      "status": "active",
+      "intent": "order",
+      "subject": {
+        "display": "Priya Patel"
+      },
+      "medicationCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "29046",
+            "display": "Lisinopril 10 MG"
+          }
+        ]
+      },
+      "dosageInstruction": [
+        {
+          "text": "10mg once daily in the morning"
+        }
+      ],
+      "prescriber": {
+        "display": "Dr. R. Mehta"
+      }
+    }
+  },
+  {
+    "id": "rx-6c57e668",
+    "patient": "Darshan Kumar",
+    "physician": "Dr. Annappa s",
+    "timestamp": "2026-02-20T21:02:10.915706",
+    "user_id": null,
+    "filename": "pain_relief_rx.jpg",
+    "file_size": 234560,
+    "notes": "Pain management prescription. Use as needed. Avoid driving if drowsy.",
+    "fhir": {
+      "resourceType": "MedicationRequest",
+      "id": "rx-6c57e668",
+      "status": "active",
+      "intent": "order",
+      "subject": {
+        "display": "Darshan Kumar"
+      },
+      "medicationCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "310965",
+            "display": "Ibuprofen 400 MG"
+          }
+        ]
+      },
+      "dosageInstruction": [
+        {
+          "text": "400mg every 6-8 hours as needed for pain"
+        }
+      ],
+      "prescriber": {
+        "display": "Dr. Annappa s"
+      },
+      "meta": {
+        "source": "MediSync-AI-v3.1",
+        "created": "2026-02-20T21:02:10.915679"
+      }
+    }
+  },
+  {
+    "id": "rx-A3F2B891",
+    "patient": "Sarah Johnson",
+    "user_id": "usr-001",
+    "physician": "Dr. Emily Watson",
+    "timestamp": "2026-02-21T09:15:30.451000",
+    "filename": "prescription_diabetes.pdf",
+    "file_size": 245680,
+    "notes": "Type 2 diabetes management. Patient reports good compliance. Monitor HbA1c levels quarterly.",
+    "fhir": {
+      "resourceType": "MedicationRequest",
+      "id": "rx-A3F2B891",
+      "status": "active",
+      "intent": "order",
+      "subject": {
+        "display": "Sarah Johnson"
+      },
+      "medicationCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "860975",
+            "display": "Metformin 500 MG"
+          }
+        ]
+      },
+      "dosageInstruction": [
+        {
+          "text": "500mg twice daily with meals"
+        }
+      ],
+      "prescriber": {
+        "display": "Dr. Emily Watson"
+      },
+      "meta": {
+        "source": "prescription_diabetes.pdf",
+        "created": "2026-02-21T09:15:30.451000"
+      }
+    }
+  },
+  {
+    "id": "rx-C7E9D245",
+    "patient": "Michael Chen",
+    "user_id": "usr-002",
+    "physician": "Dr. Robert Kumar",
+    "timestamp": "2026-02-21T10:42:15.820000",
+    "filename": "hypertension_rx.png",
+    "file_size": 1024576,
+    "notes": "Hypertension control. Recent BP: 138/88. Continue current dosage. Recheck in 2 weeks.",
+    "fhir": {
+      "resourceType": "MedicationRequest",
+      "id": "rx-C7E9D245",
+      "status": "active",
+      "intent": "order",
+      "subject": {
+        "display": "Michael Chen"
+      },
+      "medicationCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "29046",
+            "display": "Lisinopril 10 MG"
+          }
+        ]
+      },
+      "dosageInstruction": [
+        {
+          "text": "10mg once daily in the morning"
+        }
+      ],
+      "prescriber": {
+        "display": "Dr. Robert Kumar"
+      },
+      "meta": {
+        "source": "hypertension_rx.png",
+        "created": "2026-02-21T10:42:15.820000"
+      }
+    }
+  },
+  {
+    "id": "rx-F1K8M567",
+    "patient": "Jennifer Martinez",
+    "user_id": "usr-001",
+    "physician": "Dr. Lisa Anderson",
+    "timestamp": "2026-02-21T11:20:45.123000",
+    "filename": "anxiety_medication.jpg",
+    "file_size": 856432,
+    "notes": "Anxiety disorder - SSRI therapy. Patient reported improvement in symptoms. Continue current regimen.",
+    "fhir": {
+      "resourceType": "MedicationRequest",
+      "id": "rx-F1K8M567",
+      "status": "active",
+      "intent": "order",
+      "subject": {
+        "display": "Jennifer Martinez"
+      },
+      "medicationCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "384526",
+            "display": "Sertraline 50 MG"
+          }
+        ]
+      },
+      "dosageInstruction": [
+        {
+          "text": "50mg once daily in evening"
+        }
+      ],
+      "prescriber": {
+        "display": "Dr. Lisa Anderson"
+      },
+      "meta": {
+        "source": "anxiety_medication.jpg",
+        "created": "2026-02-21T11:20:45.123000"
+      }
+    }
+  },
+  {
+    "id": "rx-cf9bdde2",
+    "patient": "smith",
+    "physician": "Dr.smitha",
+    "timestamp": "2026-02-21T02:55:40.748484",
+    "fhir": {
+      "resourceType": "MedicationRequest",
+      "id": "rx-cf9bdde2",
+      "status": "active",
+      "intent": "order",
+      "subject": {
+        "display": "smith"
+      },
+      "medicationCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "AUTO",
+            "display": "AI-Extracted Medication"
+          }
+        ]
+      },
+      "dosageInstruction": [
+        {
+          "text": "As prescribed as directed",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          }
+        }
+      ],
+      "prescriber": {
+        "display": "Dr.smitha"
+      },
+      "meta": {
+        "source": "MediSync-AI-v3.1",
+        "created": "2026-02-21T02:55:40.748461"
+      }
+    }
+  },
+  {
+    "id": "rx-5b74b59e",
+    "patient": "andrew",
+    "physician": "Dr.Sarah",
+    "timestamp": "2026-02-21T03:24:24.607223",
+    "fhir": {
+      "resourceType": "MedicationRequest",
+      "id": "rx-5b74b59e",
+      "status": "active",
+      "intent": "order",
+      "subject": {
+        "display": "andrew"
+      },
+      "medicationCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "AUTO",
+            "display": "AI-Extracted Medication"
+          }
+        ]
+      },
+      "dosageInstruction": [
+        {
+          "text": "As prescribed as directed",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          }
+        }
+      ],
+      "prescriber": {
+        "display": "Dr.Sarah"
+      },
+      "meta": {
+        "source": "MediSync-AI-v3.1",
+        "created": "2026-02-21T03:24:24.607214"
+      }
+    }
+  },
+  {
+    "id": "rx-93ee77b3",
+    "patient": "Kim Sarah",
+    "physician": "Dr.jung jae in",
+    "timestamp": "2026-02-21T03:29:59.456208",
+    "fhir": {
+      "resourceType": "MedicationRequest",
+      "id": "rx-93ee77b3",
+      "status": "active",
+      "intent": "order",
+      "subject": {
+        "display": "Kim Sarah"
+      },
+      "medicationCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "AUTO",
+            "display": "AI-Extracted Medication"
+          }
+        ]
+      },
+      "dosageInstruction": [
+        {
+          "text": "As prescribed as directed",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          }
+        }
+      ],
+      "prescriber": {
+        "display": "Dr.jung jae in"
+      },
+      "meta": {
+        "source": "MediSync-AI-v3.1",
+        "created": "2026-02-21T03:29:59.456189"
+      }
+    }
+  },
+  {
+    "id": "rx-ae83d52d",
+    "patient": "Timoty",
+    "physician": "Dr.joseph",
+    "timestamp": "2026-02-21T03:35:07.011932",
+    "fhir": {
+      "resourceType": "MedicationRequest",
+      "id": "rx-ae83d52d",
+      "status": "active",
+      "intent": "order",
+      "subject": {
+        "display": "Timoty"
+      },
+      "medicationCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "AUTO",
+            "display": "AI-Extracted Medication"
+          }
+        ]
+      },
+      "dosageInstruction": [
+        {
+          "text": "As prescribed as directed",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          }
+        }
+      ],
+      "prescriber": {
+        "display": "Dr.joseph"
+      },
+      "meta": {
+        "source": "MediSync-AI-v3.1",
+        "created": "2026-02-21T03:35:07.011924"
+      }
+    },
+    "user_id": "usr-4a81da3f",
+    "filename": null,
+    "file_size": 0,
+    "notes": ""
+  }
+]

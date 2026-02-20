@@ -1,0 +1,14 @@
+[
+  {
+    "id": "risk-56436b51",
+    "user_id": "usr-37c4b3f8",
+    "age": 50,
+    "bp": 130,
+    "sugar": 140,
+    "bmi": 29.0,
+    "score": 41,
+    "risk_level": "Medium",
+    "urgency": "MODERATE",
+    "timestamp": "2026-02-21T00:31:52.138165"
+  }
+]

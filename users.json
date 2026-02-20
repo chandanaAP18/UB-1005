@@ -1,0 +1,38 @@
+[
+  {
+    "id": "usr-001",
+    "email": "doctor@hospital.com",
+    "name": "Dr. Admin",
+    "role": "physician",
+    "password": "$2b$12$VOzWUXnq798wbH96rJ30Z.cyNSv6wJyHgPYhMmTamUhKLhPWQsiSG",
+    "provider": "email",
+    "verified": true
+  },
+  {
+    "id": "usr-37c4b3f8",
+    "email": "user1@gmail.com",
+    "name": "user",
+    "role": "physician",
+    "password": "$2b$12$3EdQOqpB4II37tZPMuy04uR4edGnMdHyEYMUq8cqxutLrrS.LTEGO",
+    "provider": "email",
+    "verified": false
+  },
+  {
+    "id": "usr-931b8d1e",
+    "email": "user3@gmail.com",
+    "name": "user",
+    "role": "physician",
+    "password": "$2b$12$DoY0WO.fiHrhiPGcQoKawODB5LnNAQKQSvPHycuHS3yfsgOdyleT.",
+    "provider": "email",
+    "verified": false
+  },
+  {
+    "id": "usr-4a81da3f",
+    "email": "user4@gmail.com",
+    "name": "user4",
+    "role": "physician",
+    "password": "$2b$12$nZ5l1nDNnKQMhfw4JRWfd.r9QZBnegm7lBOfUm6eb221lemVTKtx6",
+    "provider": "email",
+    "verified": false
+  }
+]
