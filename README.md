@@ -60,63 +60,6 @@ Unified AI-powered healthcare intelligence platform with real authentication and
 - Includes ADR events & scan records
 - Preview before download
 
----
-
-## 🚀 Setup
-
-### Prerequisites
-```bash
-pip install fastapi uvicorn python-multipart bcrypt python-jose[cryptography] requests
-```
-
-### Running the Application
-
-```bash
-# Backend
-python main.py
-# Server starts at http://localhost:8000
-
-# Frontend
-# Option 1: Direct file access
-# Open index.html in browser (may have CORS issues)
-
-# Option 2: Serve with Python
-python -m http.server 3000
-# Then open http://localhost:3000
-
-# Option 3: Serve with Node.js
-npx http-server -p 3000
-```
-
-### Default Login Credentials
-- **Email**: `doctor@hospital.com`
-- **Password**: `password123`
-
-Or create a new account using the registration form!
-
-## API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auth/login` | Email/password login |
-| POST | `/api/auth/register` | New user registration |
-| POST | `/api/mental-health` | WellnessBot chat |
-| POST | `/api/predict-risk` | Risk prediction + urgency |
-| GET | `/api/risk/urgent` | Urgent patient queue |
-| POST | `/api/adr/check` | ADR interaction check |
-| POST | `/api/adr/report` | Log ADR event |
-| GET | `/api/adr/log` | ADR event history |
-| POST | `/api/prescriptions/standardize` | → FHIR R4 JSON |
-| POST | `/api/prescriptions/upload` | Upload prescription file |
-| GET | `/api/prescriptions` | List prescriptions |
-| POST | `/api/scans/upload` | Upload medical scan |
-| GET | `/api/scans` | List all scans |
-| POST | `/api/rag/search` | Medical knowledge + citations |
-| GET | `/api/dashboard` | Live analytics |
-| POST | `/api/report/generate` | Generate full report |
-
----
-
 ## 🔑 Authentication Features
 
 ### ✅ Email/Password Authentication
@@ -149,5 +92,5 @@ MedRAG uses a **4-stage intelligent retrieval system**:
 **ALL queries receive evidence-based responses** with citations to WHO, CDC, NICE, NIH, etc.
 
 ---
-MediSync AI v3.0 — Built for HealthTech Innovation Challenge 2025  
+MediSync AI v3.0 — Built for HealthTech Innovation Challenge 2026
 **Secure Authentication ✓ | Universal Medical Knowledge ✓**
